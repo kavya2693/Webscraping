@@ -1,50 +1,66 @@
-**My monitoring list for beauty products- Web scraping using python**
-<img width="581" alt="image" src="https://github.com/kavya2693/Webscraping/assets/127579722/474d5318-0910-44c0-99eb-8bc42c1fa985">
+**My Tracker for beauty products- Web scraping using python**
 
-I worked on webscraping, data formatting, and data analysis **to receive updates on price changes of my favorite beauty products across various online websites in USA. **
+**![A group of makeup items on a pink surface Description automatically generated](b62cff61aecdc20dcf4128a9af057424.png)**
 
-Beauty Product Price Tracker
-Overview
-This project is designed to track the price changes and ratings of selected beauty products across various prominent online retailers in the USA. Utilizing the power of web scraping, data formatting, and data analysis, this tool provides daily updates, allowing users to monitor market trends and make informed decisions, especially during the sale season.
+Hey all, I worked on a webscraping code for extracting data to receive updates on price and ratings my favourite beauty products across various online websites in USA.
 
-Features
-Daily Updates: Automated scraping is scheduled to run every day, ensuring the most current data is always available.
-Comprehensive Coverage: Tracks products from multiple online retailers, including Kohls, Lovelyskin, Skinlovecream, Walgreens, and Ultabeauty.
-Data Insights: Captures not only the price but also the product ratings, offering a more nuanced view of the market.
-Historical Data: By accumulating data over time, the tool can offer insights into pricing trends and rating fluctuations.
-How It Works
+**Overview:**
+
+Who doesn’t want a update on the most sought after products especially during sale season just with a single click?
+
+This project is designed to track the price changes and ratings of selected beauty products across various prominent online retailers in the USA. Utilizing the power of web scraping and data formatting this tool provides daily updates, allowing me to monitor market trends and make informed decisions, especially during the sale season.
+
+**Features:**
+
+**Daily Updates:** Automated scraping is scheduled to run every day, ensuring the most current data is always available.
+
+**Comprehensive Coverage:** Tracks products from multiple online retailers, including Kohls, Lovelyskin, Skinlovecream, Walgreens, and Ultabeauty.
+
+**Data Insights:** Captures not only the price but also the product ratings, offering a more nuanced view of the market.
+
+**Historical Data:** By accumulating data over time, the tool can offer insights into pricing trends and rating fluctuations.
+
+**How It Works:**
+
 The script is scheduled to execute daily scraping tasks using the Python schedule module. It targets specific product pages on each retailer's website, extracting information about the product's name, current price, and customer ratings. This data is then formatted and displayed in a structured table, making it easy for users to review and analyze.
 
-Data Example
+**Customizable Scheduling:**
+
+The script is scheduled to run at a specific time each day, but you can easily adjust this to suit your needs. Whether you prefer early morning updates or evening summaries, the scheduling feature is fully customizable.
+
+Simply modify the **schedule.every().day.at("22:00:00").do(combined_scrape)** line in the script to the time that best fits your schedule, ensuring you receive updates at your convenience.
+
+**Data Example:**
+
 Below is a snapshot of the type of data the script collects:
 
-Scraping started for Kohls, Lovelyskin, Skinlovecream, Walgreens, Ultabeauty at 2024-03-29 01:43:58
+![A table with price tags Description automatically generated with medium confidence](185965a5560345d15a3448e4a17a2fbe.png)
 
-╒════════════════════════════════════════════════════════════╕
-│ Product Name                                               │ Price   │ Rating │
-╞════════════════════════════════════════════════════════════╡
-│ Olaplex No. 7 Bonding Hair Oil Size: 1.0 oz                │ $30.00  │  4.3   │
-│ Olaplex No. 4 Bond Maintenance Shampoo 8.5 fl oz           │ $30.00  │  4.2   │
-...
-╘════════════════════════════════════════════════════════════╛
-Scraping ended at 2024-03-29 01:44:19
-![Screenshot 2024-03-28 at 22 09 46](https://github.com/kavya2693/Webscraping-with-scheduling/assets/127579722/54c049b6-4bd3-475d-bcea-eed436fea638)
+**Setup and Usage:**
 
-**Setup and Usage
-**
 To set up this project, clone the repository to your local machine or server and install the required Python packages:
 
-pip install requests beautifulsoup4 schedule tabulate
+**pip install requests beautifulsoup4 schedule tabulate**
 
 To initiate the scraping process, run the script:
 
-python scrape_beauty_products.py
-
+**scrape_beauty_products.py**
 
 The script will then automatically perform daily scrapes at the scheduled time, collecting and displaying the latest data.
 
-Note
+**Note:**
+
 This project is connected to a server that allows for uninterrupted daily execution, ensuring that data is consistently up-to-date. Users should ensure their server settings prevent the system from sleeping or shutting down, which could interrupt the scheduled tasks.
 
-Conclusion
+**Conclusion:**
+
 By providing daily insights into price changes and ratings, this project empowers users to track their favorite beauty products' market behavior, optimizing their purchasing decisions during key shopping periods.
+
+**Ethical Consideration**
+
+When using this tool, please be mindful of the ethical implications associated with web scraping. Ensure that your scraping activities comply with the terms of service of the target websites and respect any guidelines they have regarding automated access. Responsible use of this tool is crucial to uphold ethical standards and maintain the integrity of the data collection process, contributing to a respectful and lawful online environment.
+
+Hope this helps!!
+
+**![A red sign with white text Description automatically generated](ec98d48e0b03c3475391972cf714237c.png)**
+
