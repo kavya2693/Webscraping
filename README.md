@@ -34,7 +34,7 @@ Simply modify the **schedule.every().day.at("22:00:00").do(combined_scrape)** li
 
 Below is a snapshot of the type of data the script collects:
 
-![A table with price tags Description automatically generated with medium confidence](185965a5560345d15a3448e4a17a2fbe.png)
+![Screenshot 2024-03-28 at 22 27 06](https://github.com/kavya2693/Webscraping-with-scheduling/assets/127579722/8a13e19c-162a-41ed-9387-e46e17cafa25)
 
 **Setup and Usage:**
 
