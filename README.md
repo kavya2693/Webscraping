@@ -1,6 +1,6 @@
 **My Tracker for beauty products- Web scraping using python**
 
-**![A group of makeup items on a pink surface Description automatically generated](b62cff61aecdc20dcf4128a9af057424.png)**
+![Screenshot 2024-03-28 at 22 25 55](https://github.com/kavya2693/Webscraping-with-scheduling/assets/127579722/df6dbfe3-906b-4aef-a483-8183ab249236)
 
 Hey all, I worked on a webscraping code for extracting data to receive updates on price and ratings my favourite beauty products across various online websites in USA.
 
@@ -62,5 +62,6 @@ When using this tool, please be mindful of the ethical implications associated w
 
 Hope this helps!!
 
-![A red sign with white text Description automatically generated](ec98d48e0b03c3475391972cf714237c.png)
+![Screenshot 2024-03-28 at 22 26 22](https://github.com/kavya2693/Webscraping-with-scheduling/assets/127579722/22c78ddd-2193-4ae4-946b-e58d628b1b73)
+
 
