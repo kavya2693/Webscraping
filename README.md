@@ -1,2 +1,4 @@
 # Webscraping
-Webscraping e-commerce using selenium
+**My monitoring list for beauty products- Web scraping using python**
+
+
