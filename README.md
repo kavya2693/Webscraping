@@ -62,5 +62,5 @@ When using this tool, please be mindful of the ethical implications associated w
 
 Hope this helps!!
 
-**![A red sign with white text Description automatically generated](ec98d48e0b03c3475391972cf714237c.png)**
+![A red sign with white text Description automatically generated](ec98d48e0b03c3475391972cf714237c.png)
 
